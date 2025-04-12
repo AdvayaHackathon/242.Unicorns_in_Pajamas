@@ -1,4 +1,4 @@
-import { View, Text, TextInput, StyleSheet, ScrollView, Pressable, TouchableOpacity, FlatList, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, Pressable, TouchableOpacity, FlatList, Dimensions, TextInput, ScrollView } from 'react-native';
 import { useFonts, Nunito_700Bold, Nunito_400Regular } from '@expo-google-fonts/nunito';
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { MessageSquare, Send, ChevronLeft, Plus, Mic } from 'lucide-react-native';
